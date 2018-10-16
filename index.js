@@ -58,7 +58,3 @@
 	window.formToObj = formToObj;
 
 })()
-
-
-
-
