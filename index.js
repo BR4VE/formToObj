@@ -43,7 +43,7 @@
 		});
 		return returnedObj;
 	}
-	
+
 	formToObj.init = init;
 	window.formToObj = formToObj;
 
