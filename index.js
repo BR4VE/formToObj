@@ -23,7 +23,8 @@
 						if (name.includes("[]")) {
 							// check the previous 
 							name = name.slice(0, name.length - 2);
-							if (nameChain[name]) {
+	
+							if (nameChain.hasOwnProperty(name)) {
 								nameChain[name].push(child.value);
 							} else {
 								nameChain[name] = [child.value];
